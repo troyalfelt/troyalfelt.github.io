@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.superdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: gray;
+}
+aside {
+  display: flex;
+  justify-content: center;
+}
