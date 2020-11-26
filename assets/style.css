@@ -38,7 +38,15 @@ footer {
 
 header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.desc {
+  font-family: Verdana, Geneva, sans-serif;
 }
 aside {
   display: flex;
@@ -76,10 +84,11 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 70vw;
-
-
 }
-
+.bigP {
+  font-size: 2.3em;
+  font-family: Courier, monospace
+}
 @media only screen and (min-width: 550px) {
   .subdiv {
     height: 100vh;
