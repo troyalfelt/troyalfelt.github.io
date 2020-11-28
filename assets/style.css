@@ -48,12 +48,14 @@ header {
 .midDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
 }
 .accentDiv1 {
   background-color: #4958AB;
   width: 112px;
   height: stretch;
+  display: flex;
+  justify-content: center;
 }
 .accentDiv2 {
   background-color: #4958AB;
@@ -61,12 +63,23 @@ header {
   height: stretch;
 }
 .random {
-  width: 130px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
   border-radius: 15px;
   padding: 5px;
+  margin-top: 15px;
+}
+#github {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 10px;
+  margin-top: 30px;
 }
 address {
     margin: 5px;
+    text-align: center;
   }
 
 address a {
@@ -76,6 +89,7 @@ address a {
 h1 {
   font-size: 4em;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 .desc {
   font-family: Verdana, Geneva, sans-serif;
