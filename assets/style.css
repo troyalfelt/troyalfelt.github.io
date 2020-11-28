@@ -118,7 +118,7 @@ aside {
 
 }
 .subgrid {
-  margin-top: 20px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,6 +162,10 @@ nav {
   border-style: solid;
   border-color: white;
 }
+.gitLink {
+  margin-bottom: 20px;
+
+}
 @media only screen and (min-width: 550px) {
   .subdiv {
     height: 100vh;
@@ -197,6 +201,7 @@ nav {
   .subgrid {
     margin-left: 40px;
     margin-right: 40px;
+
   }
   nav {
     flex-direction: column;
@@ -207,6 +212,8 @@ nav {
     color: black;
     text-decoration: none;
   }
+
+
 @media only screen and (min-width: 900px) {
   aside {
     height: 155vh;
